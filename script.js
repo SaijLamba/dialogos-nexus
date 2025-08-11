@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ================== CRITICAL STEP ==================
     // Replace 'YOUR_GOOGLE_AI_API_KEY' with the key you get from Google AI Studio.
-    const API_KEY = 'YOUR_GOOGLE_AI_API_KEY';
+    const API_KEY = 'AIzaSyAydxExGbh8r7L8H9H3ZpyfppCzqFxsgVc';
     // ===================================================
 
     const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${API_KEY}`;
