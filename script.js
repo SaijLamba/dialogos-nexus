@@ -9,8 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const API_KEY = 'AIzaSyAydxExGbh8r7L8H9H3ZpyfppCzqFxsgVc';
     // ===================================================
 
-    const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${API_KEY}`;
-
+    const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent?key=${API_KEY}`;
     // Function to add a message to the chat log
     function addMessage(text, sender) {
         const messageElement = document.createElement('div');
